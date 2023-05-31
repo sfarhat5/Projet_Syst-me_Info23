@@ -1,0 +1,14 @@
+int main(){
+    int a = 5, b = 6; 
+    int i, j, k,r; 
+    i = 3; 
+    j = 4; 
+    k = 8; 
+    print(i); 
+    r = ( i + j) * ( i + k /j); 
+    if (i==j){
+        i = i +1; 
+    } 
+    print(i); 
+    
+}

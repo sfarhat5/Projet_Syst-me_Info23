@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1685196421">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1685436476">
+  <File Type="RDS-DCP" Name="MICROPROCESSOR.dcp"/>
   <File Type="PA-TCL" Name="MICROPROCESSOR.tcl"/>
   <File Type="REPORTS-TCL" Name="MICROPROCESSOR_reports.tcl"/>
   <File Type="RDS-RDS" Name="MICROPROCESSOR.vds"/>
-  <File Type="RDS-DCP" Name="MICROPROCESSOR.dcp"/>
   <File Type="RDS-UTIL-PB" Name="MICROPROCESSOR_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="MICROPROCESSOR_utilization_synth.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">

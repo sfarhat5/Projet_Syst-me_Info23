@@ -12,10 +12,20 @@ all: $(BIN)
 table_symboles.o: 
 	gcc -c table_symboles.c
 
-test1 : 
-	./cparser < test/test1.txt
+test_if :
+	./cparser < Test/test_if.txt
+	
+test2 :
+	./cparser < Test/test_if_else.txt
+
+test3 :
+	./cparser < Test/test_while.txt
+
+test4 : 
+	./cparser < Test/test_arith.txt
 	python cross_assembleur.py
 	python interpreter.py
+
 %.o: %.c
 	$(CC) -c $(CFLAGS) $(CPPFLAGS) $< -o $@
 

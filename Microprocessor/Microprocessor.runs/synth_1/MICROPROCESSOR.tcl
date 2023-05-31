@@ -22,20 +22,20 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.cache/wt [current_project]
-set_property parent.project_path /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.xpr [current_project]
+set_property webtalk.parent_dir {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.cache/wt} [current_project]
+set_property parent.project_path {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
-set_property ip_output_repo /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.cache/ip [current_project]
+set_property ip_output_repo {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd
-  /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd
-  /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd
-  /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd
-  /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd
-  /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd
+  {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd}
+  {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd}
+  {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd}
+  {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd}
+  {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd}
+  {/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

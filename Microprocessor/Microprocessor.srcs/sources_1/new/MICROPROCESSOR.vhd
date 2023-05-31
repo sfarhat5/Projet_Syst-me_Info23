@@ -22,7 +22,8 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -44,7 +45,8 @@ architecture Behavioral of MICROPROCESSOR is
 component INSTRUCTION_BANK is
     Port ( ADDR : in STD_LOGIC_VECTOR (7 downto 0);
            CLK : in STD_LOGIC;
-           OUTPUT : out STD_LOGIC_VECTOR (31 downto 0)
+           OUTPUT : out STD_LOGIC_VECTOR (31 downto 0);
+           alea : in STD_LOGIC
  );
 end component;
 
@@ -54,6 +56,7 @@ component PIPELINE is
            A_IN : in STD_LOGIC_VECTOR (7 downto 0);
            B_IN : in STD_LOGIC_VECTOR (7 downto 0);
            C_IN : in STD_LOGIC_VECTOR (7 downto 0);
+           Alea : in STD_LOGIC :='0'; 
            OP_OUT : out STD_LOGIC_VECTOR (7 downto 0);
            A_OUT : out STD_LOGIC_VECTOR (7 downto 0);
            B_OUT : out STD_LOGIC_VECTOR (7 downto 0);
@@ -149,31 +152,54 @@ signal MUX_UAL_OUT : STD_LOGIC_VECTOR (7 downto 0);
 signal MUX_MEM_BANK_OUT : STD_LOGIC_VECTOR (7 downto 0);
 signal MUX_OUT_MEM_BANK_IN : STD_LOGIC_VECTOR (7 downto 0);
 
+--Signaux des aléas 
+signal LIDI_READ : STD_LOGIC; 
+signal DIEX_WRITE : STD_LOGIC; 
+signal EXMEM_WRITE : STD_LOGIC; 
+signal CONFLICT : STD_LOGIC := '0';
+
+signal enable : STD_LOGIC := '0';
+signal LIDI_Signal1 :   STD_LOGIC_VECTOR (7 downto 0); 
+signal LIDI_Signal2 :   STD_LOGIC_VECTOR (7 downto 0); 
+signal LIDI_Signal3 :   STD_LOGIC_VECTOR (7 downto 0); 
+signal LIDI_Signal4 :   STD_LOGIC_VECTOR (7 downto 0); 
+
+
+signal IP : STD_LOGIC_VECTOR( 7 downto 0) := (others => '0'); 
+
 --PORT MAPS
 begin
+
+
 
 --INSTRUCTION BANK
 INSTRUCTION_BANK_MAP: INSTRUCTION_BANK
 port map(           
 CLK => CLK,
-ADDR => ADDR,
-OUTPUT => INSTR_BANK_OUT
+ADDR => IP,
+OUTPUT => INSTR_BANK_OUT,
+alea => conflict
 );
 
 --INSTRUCTION_BANK => LI/DI
 LIDI_MAP: PIPELINE
 port map(           
 CLK => CLK,
-OP_IN => INSTR_BANK_OUT(31 downto 24), --FIRST 8 BITS GO TO OP
-A_IN => INSTR_BANK_OUT(23 downto 16), --SECOND 8 BITS GO TO A
-B_IN => INSTR_BANK_OUT(15 downto 8), --THIRD 8 BITS GO TO B
-C_IN => INSTR_BANK_OUT(7 downto 0), --LAST 8 BITS GO TO C
+OP_IN => LIDI_Signal1,
+A_IN => LIDI_Signal2, 
+B_IN => LIDI_Signal3,
+C_IN => LIDI_Signal4, 
+Alea => CONFLICT,
 OP_OUT => LIDI_OP_OUT,
 A_OUT => LIDI_A_OUT,
 B_OUT => LIDI_B_OUT,
 C_OUT => LIDI_C_OUT
 );
 
+LIDI_Signal1 <= INSTR_BANK_OUT(31 downto 24) when enable = '1';--FIRST 8 BITS GO TO OP
+LIDI_Signal2 <= INSTR_BANK_OUT(23 downto 16) when enable = '1';  --SECOND 8 BITS GO TO A
+LIDI_Signal3 <= INSTR_BANK_OUT(15 downto 8) when enable = '1'; --THIRD 8 BITS GO TO B
+LIDI_Signal4 <= INSTR_BANK_OUT(7 downto 0) when enable = '1';  --LAST 8 BITS GO TO C
 
 --MUX REGISTER FILE
 --FOR AFC AND LOAD INSTRUCTIONS: WE NEED THE OUTPUT OF LI/DI 
@@ -194,6 +220,8 @@ A_OUT => DIEX_A_OUT,
 B_OUT => DIEX_B_OUT,
 C_OUT => DIEX_C_OUT
 );
+
+
 
 --LC UAL
 --TELLS CNTRL ALU IN WHICH MODE IT SHOULD SWITCH
@@ -274,6 +302,9 @@ QA => REG_FILE_QA_OUT,
 QB => REG_FILE_QB_OUT
 );
 
+
+
+
 --LC MEMORY_BANK
 --THE ONLY OPERATION THAT READS IS STORE (8)
 LC_MEM_BANK_OUT <= '0' when to_integer(unsigned(EXMEM_OP_OUT)) = 8 else '1';
@@ -292,6 +323,45 @@ MUX_OUT_MEM_BANK_IN <= EXMEM_A_OUT when to_integer(unsigned(EXMEM_OP_OUT)) = 8 e
 --MEANING WE DO NOT NEED THE VALUE CONTAINED IN @A SO WE ASSIGN MUX OUT TO @ OF MEMORY BANK DIRECTLY (@A)
 MUX_MEM_BANK_OUT <= MEM_BANK_OUT when to_integer(unsigned(EXMEM_OP_OUT)) = 7 else EXMEM_B_OUT;
 
+--Detection d'aléas 
+LIDI_READ <= '1' 
+    when INSTR_BANK_OUT(31 downto 24) = x"05" or  --COP
+         INSTR_BANK_OUT(31 downto 24) = x"02" or  --SUB
+         INSTR_BANK_OUT(31 downto 24) = x"03" or  --MUL
+         INSTR_BANK_OUT(31 downto 24) = x"01" or  --ADD
+         INSTR_BANK_OUT(31 downto 24) = x"08"     --STORE
+     else '0'; 
+DIEX_WRITE <= '1' when (DIEX_OP_OUT=x"01" or DIEX_OP_OUT=x"02" or DIEX_OP_OUT=x"03" or DIEX_OP_OUT=x"06" or DIEX_OP_OUT=x"05") else '0'; 
+EXMEM_WRITE <= '1' 
+    when 
+        EXMEM_OP_OUT =x"01" or --ADD
+        EXMEM_OP_OUT =x"02" or --SUB
+        EXMEM_OP_OUT =x"03" or --MUL
+        EXMEM_OP_OUT =x"06" or --AFC
+        EXMEM_OP_OUT =x"05" --COP
+     else '0'; 
+
+CONFLICT <= '1' 
+    when (LIDI_READ = '1' and DIEX_WRITE = '1' and  INSTR_BANK_OUT(15 downto 8 ) = LIDI_A_OUT) or
+         ( LIDI_READ = '1' and DIEX_WRITE = '1' and  INSTR_BANK_OUT(7 downto 0) = LIDI_A_OUT) or
+         (LIDI_READ = '1' and EXMEM_WRITE = '1' and INSTR_BANK_OUT(15 downto 8 ) = DIEX_A_OUT) or  
+         ( LIDI_READ = '1' and EXMEM_WRITE = '1' and INSTR_BANK_OUT(7 downto 0) = DIEX_A_OUT) 
+    else 
+         '0'; 
+
+process 
+begin 
+    wait until CLK'Event and CLK = '1';
+  if CONFLICT = '0' then 
+         IP <= IP +1;
+         enable <= '1';
+  else 
+        enable <= '0'; 
+  end if; 
+end process;  
+    
+    
+--stop <= '1'when(LIDI_READ = '1'and DIEX_WRITE = '1' and CONFLICT_LIDI_DIEX = '1') or (LIDI_READ = '1' and EXMEM_WRITE ='1'and CONFLICT_LIDI_EXMEM ='1'); 
 
 --MEMORY BANK
 MEMORY_BANK_MAP: MEMORY_BANK

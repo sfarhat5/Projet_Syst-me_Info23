@@ -1,3 +1,5 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.sim/sim_1/synth/func/xsim/MICROPROCESSOR_TEST_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.sim/sim_1/synth/func/xsim/MICROPROCESSOR_TEST_func_synth.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module MICROPROCESSOR
 INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR_TEST

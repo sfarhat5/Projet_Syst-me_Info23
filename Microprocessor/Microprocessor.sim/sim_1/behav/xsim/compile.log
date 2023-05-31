@@ -278,31 +278,111 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/home/baccar/Microprocessor/Microproces
 INFO: [VRFC 10-307] analyzing entity INSTRUCTION_BANK
 INFO: [VRFC 10-163] Analyzing VHDL file "/home/baccar/Microprocessor/Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR_TEST
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity INSTRUCTION_BANK
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity MEMORY_BANK
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity PIPELINE
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity REGISTER_FILE
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity UAL
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR_TEST
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Projet Systme_info 23/Microprocessor/Version2/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity INSTRUCTION_BANK
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Projet Systme_info 23/Microprocessor/Version2/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity MEMORY_BANK
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Projet Systme_info 23/Microprocessor/Version2/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Projet Systme_info 23/Microprocessor/Version2/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity INSTRUCTION_BANK
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR_TEST
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity INSTRUCTION_BANK
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity PIPELINE
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Projet Systme_info 23/Microprocessor/Version2/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+ERROR: [VRFC 10-91] conflict_lidi_diex is not declared [/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:349]
+ERROR: [VRFC 10-2123] 0 definitions of operator "and" match here [/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:349]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:41]
+INFO: [VRFC 10-240] VHDL file /home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PIPELINE
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+ERROR: [VRFC 10-91] alea is not declared [/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:343]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:41]
+INFO: [VRFC 10-240] VHDL file /home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+ERROR: [VRFC 10-91] alea is not declared [/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:343]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:41]
+INFO: [VRFC 10-240] VHDL file /home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PIPELINE
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PIPELINE
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity INSTRUCTION_BANK
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Automates et langage/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/4A/Projet_Syst-me_Info23/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity INSTRUCTION_BANK
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/4A/Projet_Syst-me_Info23/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MEMORY_BANK
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/4A/Projet_Syst-me_Info23/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/4A/Projet_Syst-me_Info23/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PIPELINE
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/4A/Projet_Syst-me_Info23/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity REGISTER_FILE
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Projet Systme_info 23/Microprocessor/Version2/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/4A/Projet_Syst-me_Info23/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity UAL
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/Projet Systme_info 23/Microprocessor/Version2/Microprocessor/Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sfarhat/Bureau/4A/Projet_Syst-me_Info23/Microprocessor/Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity MICROPROCESSOR_TEST

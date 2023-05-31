@@ -137,27 +137,25 @@ expr_stmt: expr SEMI
     | SEMI
     ;
 
-selection_stmt: IF LPAREN expr RPAREN {
+selection_stmt:  IF LPAREN expr RPAREN{
     res_condition = $3;
     index_retour = index_asm; 
     index_asm++; 
     printf("Selection Statement if else Ok\n"); 
-    } stmt {
-        index_asm = index_asm + 2;
-        sprintf(ASM[index_retour], "JMF %d %d\n", res_condition, index_asm);
+    }
+    SuiteIf{}
+    ; 
+
+SuiteIf : stmt {sprintf(ASM[index_retour], "JMF %d %d \n", res_condition, index_asm);} stmt {};      
+        | stmt {index_asm = index_asm + 2 ;} 
+        ELSE {sprintf(ASM[index_retour], "JMF %d %d \n", res_condition, index_asm);
         index_retour_else = index_asm; 
         index_asm++;
-        printf("Selection Statement if avec else2 Ok\n");
-    } else_stmt 
+        printf("Selection statement avec else\n");}
+             
+        stmt { sprintf(ASM[index_retour_else], "JMP %d %d\n", res_condition, index_asm-1);} stmt {}
     ;
-
-else_stmt: /*empty*/
-        | ELSE stmt { 
-        sprintf(ASM[index_retour_else], "JMP %d %d\n", res_condition, index_asm - 1);
-    };
-   
-
-
+       
 
 iteration_stmt: WHILE LPAREN expr RPAREN {
     res_condition = $3; 
@@ -170,7 +168,7 @@ iteration_stmt: WHILE LPAREN expr RPAREN {
     stmt {
         
         sprintf(ASM[index_asm], "JMP %d %d\n", res_condition, index_before_while); 
-    }
+    } stmt {}
     ;
 
 print_stmt: PRINT LPAREN expr RPAREN SEMI {
