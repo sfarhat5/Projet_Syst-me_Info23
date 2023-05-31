@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8740229714747361397  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 8dc54fb708904ee99b5423ecaa1a5ca5 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot MICROPROCESSOR_TEST_func_synth xil_defaultlib.MICROPROCESSOR_TEST xil_defaultlib.glbl" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:07:38" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/MICROPROCESSOR_TEST_func_synth/xsimk\"   \"xsim.dir/MICROPROCESSOR_TEST_func_synth/obj/xsim_0.lnx64.o\" \"xsim.dir/MICROPROCESSOR_TEST_func_synth/obj/xsim_1.lnx64.o\" \"/usr/local/insa/Xilinx.VIVADO/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/usr/local/insa/Xilinx.VIVADO/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,598 @@
+
+*** Running vivado
+    with args -log MICROPROCESSOR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MICROPROCESSOR.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source MICROPROCESSOR.tcl -notrace
+Command: synth_design -top MICROPROCESSOR -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30809 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1255.277 ; gain = 83.828 ; free physical = 7748 ; free virtual = 20085
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MICROPROCESSOR' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:40]
+INFO: [Synth 8-3491] module 'INSTRUCTION_BANK' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:36' bound to instance 'INSTRUCTION_BANK_MAP' of component 'INSTRUCTION_BANK' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'INSTRUCTION_BANK' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:42]
+WARNING: [Synth 8-3848] Net MEM[255] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[254] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[253] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[252] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[251] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[250] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[249] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[248] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[247] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[246] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[245] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[244] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[243] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[242] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[241] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[240] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[239] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[238] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[237] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[236] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[235] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[234] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[233] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[232] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[231] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[230] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[229] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[228] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[227] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[226] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[225] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[224] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[223] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[222] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[221] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[220] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[219] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[218] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[217] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[216] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[215] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[214] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[213] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[212] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[211] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[210] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[209] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[208] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[207] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[206] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[205] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[204] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[203] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[202] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[201] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[200] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[199] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[198] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[197] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[196] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[195] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[194] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[193] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[192] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[191] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[190] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[189] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[188] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[187] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[186] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[185] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[184] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[183] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[182] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[181] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[180] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[179] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[178] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[177] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[176] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[175] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[174] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[173] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[172] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[171] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[170] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[169] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[168] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[167] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[166] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[165] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[164] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[163] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[162] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[161] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[160] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[159] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[158] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[157] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+WARNING: [Synth 8-3848] Net MEM[156] in module/entity INSTRUCTION_BANK does not have driver. [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:44]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'INSTRUCTION_BANK' (1#1) [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd:42]
+INFO: [Synth 8-3491] module 'PIPELINE' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd:34' bound to instance 'LIDI_MAP' of component 'PIPELINE' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'PIPELINE' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'PIPELINE' (2#1) [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd:46]
+INFO: [Synth 8-3491] module 'PIPELINE' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd:34' bound to instance 'DIEX_MAP' of component 'PIPELINE' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:185]
+INFO: [Synth 8-3491] module 'UAL' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd:16' bound to instance 'UAL_MAP' of component 'UAL' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:208]
+INFO: [Synth 8-638] synthesizing module 'UAL' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'UAL' (3#1) [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd:27]
+INFO: [Synth 8-3491] module 'PIPELINE' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd:34' bound to instance 'EXMEM_MAP' of component 'PIPELINE' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:228]
+INFO: [Synth 8-3491] module 'PIPELINE' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/PIPELINE.vhd:34' bound to instance 'MEMRE_MAP' of component 'PIPELINE' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:242]
+INFO: [Synth 8-3491] module 'REGISTER_FILE' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd:36' bound to instance 'REGISTER_FILE_MAP' of component 'REGISTER_FILE' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:264]
+INFO: [Synth 8-638] synthesizing module 'REGISTER_FILE' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'REGISTER_FILE' (4#1) [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd:49]
+INFO: [Synth 8-3491] module 'MEMORY_BANK' declared at '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd:35' bound to instance 'MEMORY_BANK_MAP' of component 'MEMORY_BANK' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:297]
+INFO: [Synth 8-638] synthesizing module 'MEMORY_BANK' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'MEMORY_BANK' (5#1) [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'MICROPROCESSOR' (6#1) [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd:40]
+WARNING: [Synth 8-3331] design PIPELINE has unconnected port CLK
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1310.902 ; gain = 139.453 ; free physical = 7715 ; free virtual = 20053
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1310.902 ; gain = 139.453 ; free physical = 7718 ; free virtual = 20056
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1318.906 ; gain = 147.457 ; free physical = 7718 ; free virtual = 20055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "REG_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[8]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[9]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[10]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[11]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[12]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[13]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[14]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REG_reg[15]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "MEM_reg[255]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[254]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[253]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[252]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[251]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[250]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[249]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[248]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[247]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[246]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[245]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[244]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[243]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[242]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[241]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[240]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[239]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[238]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[237]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[236]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[235]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[234]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[233]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[232]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[231]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[230]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[229]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[228]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[227]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[226]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[225]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[224]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[223]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[222]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[221]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[220]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[219]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[218]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[217]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[216]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[215]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[214]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[213]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[212]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[211]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[210]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[209]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[208]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[207]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[206]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[205]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[204]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[203]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[202]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[201]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[200]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[199]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[198]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[197]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[196]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[195]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[194]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[193]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[192]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[191]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[190]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[189]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[188]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[187]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[186]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[185]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[184]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[183]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[182]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[181]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[180]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[179]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[178]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[177]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[176]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[175]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[174]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[173]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[172]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[171]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[170]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[169]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[168]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[167]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[166]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[165]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[164]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[163]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[162]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[161]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[160]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[159]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[158]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[157]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MEM_reg[156]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "LC_FINAL_OUT" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LC_MEM_BANK_OUT" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'OP_reg' [/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.srcs/sources_1/new/UAL.vhd:32]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1338.953 ; gain = 167.504 ; free physical = 7656 ; free virtual = 19994
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 273   
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 6     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 274   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MICROPROCESSOR 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module INSTRUCTION_BANK 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module UAL 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 2     
+Module REGISTER_FILE 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 16    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 16    
+Module MEMORY_BANK 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 257   
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 256   
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[31]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[30]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[29]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[28]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[27]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[26]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[25]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[24]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[23]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[22]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[21]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[20]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[19]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[18]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[17]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[16]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[15]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[14]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[13]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[12]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[11]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[10]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[9]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[8]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[7]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[6]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[5]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[4]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[3]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[2]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[1]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (OUTPUT_reg[0]) is unused and will be removed from module INSTRUCTION_BANK.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[15]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[14]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[13]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[12]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[11]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[10]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[9]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[8]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[4]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[3]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[2]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[1]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (UAL_MAP/OP_reg[0]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][4]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][3]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][2]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][1]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[255][0]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][4]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][3]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][2]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][1]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[254][0]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][4]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][3]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][2]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][1]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[253][0]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][4]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][3]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][2]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][1]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[252][0]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][4]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][3]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][2]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][1]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[251][0]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][4]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][3]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][2]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][1]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[250][0]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[249][7]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[249][6]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[249][5]) is unused and will be removed from module MICROPROCESSOR.
+WARNING: [Synth 8-3332] Sequential element (MEMORY_BANK_MAP/MEM_reg[249][4]) is unused and will be removed from module MICROPROCESSOR.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7556 ; free virtual = 19899
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2480 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.039 ; gain = 265.590 ; free physical = 7555 ; free virtual = 19898
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1437.047 ; gain = 265.590 ; free physical = 7571 ; free virtual = 19914
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+148 Infos, 202 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1508.062 ; gain = 348.238 ; free physical = 7541 ; free virtual = 19884
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.runs/synth_1/MICROPROCESSOR.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MICROPROCESSOR_utilization_synth.rpt -pb MICROPROCESSOR_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1532.074 ; gain = 0.000 ; free physical = 7534 ; free virtual = 19877
+INFO: [Common 17-206] Exiting Vivado at Sat May 27 16:07:34 2023...

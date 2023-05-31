@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat May 27 16:07:03 2023
+# Process ID: 30791
+# Current directory: /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.runs/synth_1
+# Command line: vivado -log MICROPROCESSOR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MICROPROCESSOR.tcl
+# Log file: /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.runs/synth_1/MICROPROCESSOR.vds
+# Journal file: /home/sfarhat/Bureau/Compilor-2.0-main/Microprocessor/Microprocessor.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source MICROPROCESSOR.tcl -notrace

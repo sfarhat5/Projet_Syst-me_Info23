@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Microprocessor.srcs/sources_1/new/INSTRUCTION_BANK.vhd" \
+"../../../../Microprocessor.srcs/sources_1/new/MEMORY_BANK.vhd" \
+"../../../../Microprocessor.srcs/sources_1/new/MICROPROCESSOR.vhd" \
+"../../../../Microprocessor.srcs/sources_1/new/PIPELINE.vhd" \
+"../../../../Microprocessor.srcs/sources_1/new/REGISTER_FILE.vhd" \
+"../../../../Microprocessor.srcs/sources_1/new/UAL.vhd" \
+"../../../../Microprocessor.srcs/sim_1/new/MICROPROCESSOR_TEST.vhd" \
+
+# Do not sort compile order
+nosort
